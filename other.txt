@@ -1,0 +1,6 @@
+highestR = compareR(rSquared(y,x,slope,intercept), rSquared(y2,x2,slope,intercept))
+    plt.scatter(DNAdf, dfSTD)
+    plt.plot(x, slope*x+intercept) #line of best fit
+    plt.title(label="R^2=" + str(highestR) + 
+    ',  y = ' + '{:.2f}'.format(slope) + ' + {:.2f}'.format(intercept) + 'x' , loc='left') # TODO: use F-string
+    plt.show()
